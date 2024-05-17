@@ -1,0 +1,40 @@
+-- EXERCISE 4
+
+-- ----------- TASK 1 ----------------
+-- FIND DIFFERENT TYPES OF DEPARTMENTS
+
+-- SELECT distinct(DEPT)
+-- FROM EMPLOYEES; 
+
+
+-- ----------TASK 2 --------------
+-- DISPLAY RECORDS WITH HIGH TO LOW SALARY
+
+-- SELECT *
+-- FROM EMPLOYEES
+-- ORDER BY SALARY DESC;
+
+
+-- ----------TASK 3-------------
+-- HOW TO SEE ONLY TOP 3 RECORDS
+
+-- SELECT *
+-- FROM EMPLOYEES
+-- LIMIT 3;
+
+
+-- -----------TASK 4--------------
+-- SHOW RECORDS WHERE NAME START WITH 'S'
+
+-- SELECT *
+-- FROM EMPLOYEES
+-- WHERE NAME LIKE "S%"
+
+
+-- ------------TASK 5 -----------------
+-- SHOW DATA WHERE LENGTH OF NAME IS 4 CHARACTER 
+
+-- SELECT *
+-- FROM EMPLOYEES
+-- WHERE NAME LIKE "____";
+

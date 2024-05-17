@@ -1,0 +1,5 @@
+create table student_info(
+DEPARTMENT CHAR,
+DIVISION CHAR(1),
+ROLL_NO VARCHAR(2),
+NAME VARCHAR(100) );
